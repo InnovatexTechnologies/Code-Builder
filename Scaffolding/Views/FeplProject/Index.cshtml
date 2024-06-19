@@ -1,0 +1,95 @@
+@model IEnumerable<Scaffolding.Models.FeplProject>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>List of Projects</h2>
+
+<p>
+    <a class="btn btn-info" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Project Name
+            </th>
+            <th>
+                Alias Name
+            </th>
+            <th>
+                Login Required
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                @item.aliasName
+            </td>
+            <td>
+                @(item.isLoginRequired==1?"Yes":"No")
+            </td>
+                <td>
+                    <div style="float:left; margin:0px 5px 0px 0px;">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })
+                    </div>
+                    <div style="float:left; margin:0px 5px 0px 0px;">
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+                    </div>
+                    <div style="float:left; margin:0px 5px 0px 0px;">
+                        @Html.ActionLink("Tables", "Index", "FeplTable", new { projectId = item.id }, new { @class = "btn btn-success" })
+                        </div>
+
+                    <div class="dropdown" style="float:left;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-@item.id" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Download
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton-@item.id">
+                            <a class="dropdown-item" href="~/Home/Download/@item.id">MVC Only</a>
+                            <a class="dropdown-item" href="~/Home/Download/@item.id?Api=1">API Only</a>
+                            <a class="dropdown-item" href="~/Home/Download/@item.id?mvcApi=1">Both</a>
+                        </div>
+                    </div>               
+
+                </td>
+
+        </tr>
+}
+    </tbody>
+</table>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+
+        dropdownToggles.forEach(function (dropdownToggle) {
+            dropdownToggle.addEventListener("click", function (event) {
+                var dropdownMenu = event.target.nextElementSibling;
+
+                // Toggle 'show' class to display/hide the dropdown
+                dropdownMenu.classList.toggle("show");
+            });
+        });
+
+        // Add an event listener to hide the dropdown when clicking outside of it
+        document.addEventListener("click", function (event) {
+            var targetElement = event.target; // clicked element
+
+            dropdownToggles.forEach(function (dropdownToggle) {
+                var dropdownMenu = dropdownToggle.nextElementSibling;
+
+                if (!dropdownMenu.contains(targetElement) && !dropdownToggle.contains(targetElement)) {
+                    // Remove 'show' class to hide the dropdown
+                    dropdownMenu.classList.remove("show");
+                }
+            });
+        });
+    });
+
+</script>

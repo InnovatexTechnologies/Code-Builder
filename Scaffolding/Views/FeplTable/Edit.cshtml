@@ -1,0 +1,60 @@
+﻿@model Scaffolding.Models.FeplTable
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>FeplTable</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="id" class="form-control" />
+            <input hidden asp-for="numId" class="form-control" />
+            <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">Project Name</label>
+                <select name="projectId" id="projectId" required class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.FeplProjects)
+                    {
+                        @if (Model.projectId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Table Name</label>
+                <input name="name" id="name" value="@Model.name" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Model Name</label>
+                <input name="modelName" id="modelName" value="@Model.modelName" required class="form-control" />
+
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

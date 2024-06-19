@@ -1,0 +1,230 @@
+﻿@model IEnumerable<Scaffolding.Models.FeplField>
+
+@{
+    ViewData["Title"] = "Index";
+
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+<form method="post" action="~/FeplField/Index">
+    <div class="row">
+        <div class="col-3">
+            <label class="control-label">Table Name</label>
+            <select name="tableId" id="tableId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.FeplTables)
+                {
+                    if (ViewBag.tableId != null && ViewBag.tableId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <label class="control-label">DataType Name</label>
+            <select name="dataTypeId" id="dataTypeId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.FeplDataTypes)
+                {
+                    if (ViewBag.dataTypeId != null && ViewBag.dataTypeId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <label class="control-label">Foreign Table</label>
+            <select name="foreignTableId" id="foreignTableId" class="form-control">
+                <option value="">--Select--</option>
+                @foreach (var obj in ViewBag.FeplTables)
+                {
+                    if (ViewBag.foreignTableId != null && ViewBag.foreignTableId == obj.id)
+                    {
+                        <option value="@obj.id" selected>@obj.name</option>
+                    }
+                    else
+                    {
+                        <option value="@obj.id">@obj.name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <label class="control-label">ForeignKey Name</label>
+            <select name="foreignKeyId" id="foreignKeyId" class="form-control">
+                <option value="">--Select--</option>
+            </select>
+        </div>
+        @* <select name="foreignKeyId" id="foreignKeyId" class="form-control">
+        <option value="">--Select--</option>
+        @foreach (var obj in ViewBag.FeplFields)
+        {
+        if (ViewBag.foreignKeyId != null && ViewBag.foreignKeyId == obj.id)
+        {
+        <option value="@obj.id" selected>@obj.name</option>
+        }
+        else
+        {
+        <option value="@obj.id">@obj.name</option>
+        }
+        }
+        </select> *@
+        <span style="margin-top: 15px;">
+        </span>
+        <div class="col-3"><button class="btn btn-info" type="submit">Submit</button></div>
+        <span style="margin-bottom: 15px;"></span>
+    </div>
+    <input name="projectId" hidden value="@ViewBag.projectId" />
+</form>
+@* <h1>Index</h1> *@
+
+<p>
+    <a href="~/FeplField/Create?projectId=@ViewContext.HttpContext.Request.Query["projectId"]&tableId=@ViewContext.HttpContext.Request.Query["tableId"]&url=@System.Net.WebUtility.UrlEncode(myurl)" class="btn btn-success">Create New</a>
+    <span style="margin-right: 20px;"></span>
+    @*  <a href="/FeplField/GenerateExcel?tableId=@ViewBag.tableId&dataTypeId=@ViewBag.dataTypeId&foreignKeyId=@ViewBag.foreignKeyId&foreignTableId=@ViewBag.foreignTableId&metaTableId=@ViewBag.metaTableId" class="btn btn-primary">DOWNLOAD EXCEL</a>
+    <span style="margin-right: 20px;">
+    </span>
+    <a href="/FeplField/GeneratePdf?tableId=@ViewBag.tableId&dataTypeId=@ViewBag.dataTypeId&foreignKeyId=@ViewBag.foreignKeyId&foreignTableId=@ViewBag.foreignTableId&metaTableId=@ViewBag.metaTableId" class="btn btn-secondary">DOWNLOAD PDF</a>*@
+    <a href="/FeplField/GenerateExcel?tableId=@ViewBag.tableId&dataTypeId=@ViewBag.dataTypeId&foreignKeyId=@ViewBag.foreignKeyId&foreignTableId=@ViewBag.foreignTableId&metaTableId=@ViewBag.metaTableId" class="btn btn-primary">
+        <i class="fas fa-file-excel"></i>
+    </a>
+    <span style="margin-right: 20px;"></span>
+    <a href="/FeplField/GeneratePdf?tableId=@ViewBag.tableId&dataTypeId=@ViewBag.dataTypeId&foreignKeyId=@ViewBag.foreignKeyId&foreignTableId=@ViewBag.foreignTableId&metaTableId=@ViewBag.metaTableId" class="btn btn-secondary">
+        <i class="fas fa-file-pdf"></i>
+    </a>
+
+    <br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Table Name
+            </th>
+            <th>
+                Field Name
+            </th>
+            <th>
+                DataType Name
+            </th>
+            <th>
+                length
+            </th>
+            <th>
+                IsPrimaryKey
+            </th>
+            <th>
+                IsRequired
+            </th>
+            <th>
+                IsHidden
+            </th>
+            <th>
+                MetaRequired
+            </th>
+            <th>
+                ForeignKey Name
+            </th>
+            <th>
+                Print Name
+            </th>
+            <th>
+                Default Value
+            </th>
+            <th>
+                Foreign Table
+            </th>
+            <th>
+                Meta Table
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.tableNav?.name
+                </td>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.dataTypeNav?.name
+                </td>
+                <td>
+                    @item.length
+                </td>
+                <td>
+                    @(item.isPrimaryKey == 1 ? "Yes" : "No")
+                </td>
+                <td>
+                    @(item.isRequired == 1 ? "Yes" : "No")
+                </td>
+                <td>
+                    @(item.isHidden == 1 ? "Yes" : "No")
+                </td>
+                <td>
+                    @(item.metaRequired == 1 ? "Yes" : "No")
+                </td>
+                <td>
+                    @item.foreignKeyNav?.name
+                </td>
+                <td>
+                    @item.printName
+                </td>
+                <td>
+                    @item.defaultValue
+                </td>
+                <td>
+                    @item.foreignTableNav?.name
+                </td>
+                <td>
+                    @item.metaTableNav?.name
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { projectId = ViewBag.projectId, id = item.id, url = myurl }, new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@using Newtonsoft.Json
+
+<script>
+    const ele = document.getElementById("foreignTableId");
+    ele.addEventListener('change', () => {
+
+        var allRecords = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FeplFields));
+        var filteredRecords = allRecords.filter(function (record) {
+            return record.tableId === ele.value;
+        });
+        var foreignKeySelect = document.getElementById("foreignKeyId");
+        filteredRecords.forEach(function (record) {
+            var option = document.createElement("option");
+            option.value = record.id;
+            option.textContent = record.name;
+            foreignKeySelect.appendChild(option);
+        });
+    })
+
+</script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

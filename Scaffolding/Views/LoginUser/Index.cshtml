@@ -1,0 +1,57 @@
+@model IEnumerable<Scaffolding.Models.LoginUser>
+
+@{
+    ViewData["Title"] = "Index";
+    string myurl = Context.Request.Path + Context.Request.HttpContext.Request.QueryString;
+}
+
+@* <h1>Index</h1> *@
+
+<p>
+    <a href="~/LoginUser/Create?url=@myurl" class="btn btn-success">Create New</a>
+    <span style="margin-bottom: 15px;"></span>
+    @* <div>
+    <a href = "/LoginUser/GenerateExcel" class="link-success">DOWNLOAD EXCEL</a>
+    <span style = "margin-right: 20px;" ></ span >
+    <a href= "/LoginUser/GeneratePdf" class="link-danger">DOWNLOAD PDF</a>
+    </div> *@
+    <span style="margin-right: 20px;"></span>
+    <a href="/LoginUser/GenerateExcel" class="btn btn-primary">
+    <i class="fas fa-file-excel"></i>
+    </a>
+    <span style="margin-right: 20px;"></span>
+    <a href="/LoginUser/GeneratePdf" class="btn btn-secondary">
+    <i class="fas fa-file-pdf"></i>
+    </a>
+    <br />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                User Name
+            </th>
+            <th>
+                Password
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @item.password
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id, url = myurl },new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id, url = myurl }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

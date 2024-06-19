@@ -1,0 +1,60 @@
+@model Scaffolding.Models.FeplProject
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>FeplProject</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input hidden asp-for="id" class="form-control" />
+                <input hidden asp-for="numId" class="form-control" />
+                <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">Project Name</label>
+                <input name="name" id="name" value="@Model.name" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Alias Name</label>
+                <input name="aliasName" id="aliasName" value="@Model.aliasName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Login Required</label>
+                <select name="isLoginRequired" id="isLoginRequired" required class="form-control" >
+                    <option value="">--Select--</option>
+                    @if(Model.isLoginRequired == 1)
+                    {
+                    <option value="1" selected>Yes</option>
+                    <option value="0">No</option>
+                    }
+                    else if(Model.isLoginRequired==0)
+                    {
+                    <option value="1">Yes</option>
+                    <option value="0" selected>No</option>
+                    }
+                    else
+                    {
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,270 @@
+﻿@model Scaffolding.Models.FeplField
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>FeplField</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input hidden asp-for="id" class="form-control" />
+            <input hidden asp-for="numId" class="form-control" />
+            <input hidden asp-for="idPrefix" class="form-control" />
+            <div class="form-group">
+                <label class="control-label">Table Name</label>
+                <select name="tableId" id="tableId" required class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.FeplTables)
+                    {
+                        @if (Model.tableId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Field Name</label>
+                <input name="name" id="name" value="@Model.name" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">DataType Name</label>
+                <select name="dataTypeId" id="dataTypeId" required class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.FeplDataTypes)
+                    {
+                        @if (Model.dataTypeId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">length</label>
+                <input name="length" id="length" value="@Model.length" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">IsPrimaryKey</label>
+                <select name="isPrimaryKey" id="isPrimaryKey" required class="form-control">
+                    <option value="">--Select--</option>
+                    @if (Model.isPrimaryKey == 1)
+                    {
+                        <option value="1" selected>Yes</option>
+                        <option value="0">No</option>
+                    }
+                    else if (Model.isPrimaryKey == 0)
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0" selected>No</option>
+                    }
+                    else
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">IsRequired</label>
+                <select name="isRequired" id="isRequired" required class="form-control">
+                    <option value="">--Select--</option>
+                    @if (Model.isRequired == 1)
+                    {
+                        <option value="1" selected>Yes</option>
+                        <option value="0">No</option>
+                    }
+                    else if (Model.isRequired == 0)
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0" selected>No</option>
+                    }
+                    else
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">IsHidden</label>
+                <select name="isHidden" id="isHidden" required class="form-control">
+                    <option value="">--Select--</option>
+                    @if (Model.isHidden == 1)
+                    {
+                        <option value="1" selected>Yes</option>
+                        <option value="0">No</option>
+                    }
+                    else if (Model.isHidden == 0)
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0" selected>No</option>
+                    }
+                    else
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">MetaRequired</label>
+                <select name="metaRequired" id="metaRequired" required class="form-control">
+                    <option value="">--Select--</option>
+                    @if (Model.metaRequired == 1)
+                    {
+                        <option value="1" selected>Yes</option>
+                        <option value="0">No</option>
+                    }
+                    else if (Model.metaRequired == 0)
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0" selected>No</option>
+                    }
+                    else
+                    {
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Print Name</label>
+                <input name="printName" id="printName" value="@Model.printName" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Default Value</label>
+                <input name="defaultValue" id="defaultValue" value="@Model.defaultValue" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foreign Table</label>
+                <select name="foreignTableId" id="foreignTableId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.FeplTables)
+                    {
+                        @if (Model.foreignTableId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">ForeignKey Name</label>
+                <select name="foreignKeyId" id="foreignKeyId" class="form-control">
+                   @*  <option value="">--Select--</option> *@
+                    @* @foreach (var obj in ViewBag.FeplFields)
+                    {
+                        @if (Model.foreignKeyId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    } *@
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Meta Table</label>
+                <select name="metaTableId" id="metaTableId" class="form-control">
+                    <option value="">--Select--</option>
+                    @foreach (var obj in ViewBag.FeplTables)
+                    {
+                        @if (Model.metaTableId == obj.id)
+                        {
+                            <option value="@obj.id" selected>@obj.name</option>
+                        }
+                        else
+                        {
+                            <option value="@obj.id">@obj.name</option>
+                        }
+                    }
+                </select>
+            </div>
+            <input name="url" hidden value="@ViewBag.url" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@ViewBag.url">Back to List</a>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var selectedTableId = document.getElementById("foreignTableId").value;
+        var allRecords = JSON.parse('@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FeplFields))');
+        var allRecor = JSON.parse('@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.foreignKeyId))');
+
+        var foreignKeySelect = document.getElementById("foreignKeyId");
+        foreignKeySelect.innerHTML = "<option value=''>--Select--</option>";
+
+        allRecords.forEach(function (record) {
+            if (record.tableId === selectedTableId) {
+                var option = document.createElement("option");
+                option.value = record.id;
+                option.textContent = record.name;
+                if (record.id === '@Model.foreignKeyId') { // Replace '@Model.foreignKeyId' with the actual value of the foreign key in your model
+                    option.selected = true; // Preselect the option if its value matches the foreign key value
+                }
+                foreignKeySelect.appendChild(option);
+            }
+        });
+    });
+
+    const ele = document.getElementById("foreignTableId");
+
+    ele.addEventListener('change', () => {
+
+        var allRecor = JSON.parse('@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.foreignKeyId))');
+        console.log('Model.foreignKeyId', allRecor)
+
+        var allRecords = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.FeplFields));
+
+        var filteredRecords = allRecords.filter(function (record) {
+            return record.tableId === ele.value; 
+        });
+
+        var foreignKeySelect = document.getElementById("foreignKeyId");
+        foreignKeySelect.innerHTML = "";
+        foreignKeySelect.innerHTML = "<option selected value=''>--Select--</option>";
+
+        filteredRecords.forEach(function (record) {
+            var option = document.createElement("option");
+            option.value = record.id
+            option.textContent = record.name;
+            foreignKeySelect.appendChild(option);
+        });
+    })
+</script>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

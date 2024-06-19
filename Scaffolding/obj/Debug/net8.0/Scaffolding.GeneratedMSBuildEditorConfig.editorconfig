@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Scaffolding
+build_property.RootNamespace = Scaffolding
+build_property.ProjectDir = D:\Tushar Projects\Scaffolding\Scaffolding\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Tushar Projects\Scaffolding\Scaffolding
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplDataType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbERhdGFUeXBlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplDataType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbERhdGFUeXBlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplDataType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbERhdGFUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplDataType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbERhdGFUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplField/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbEZpZWxkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplField/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbEZpZWxkXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplField/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbEZpZWxkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplField/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbEZpZWxkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplProject/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFByb2plY3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplProject/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFByb2plY3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplProject/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFByb2plY3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplProject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFByb2plY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplTable/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFRhYmxlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplTable/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFRhYmxlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplTable/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFRhYmxlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/FeplTable/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVwbFRhYmxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/Controller.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/CreateView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/DeleteView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/Design.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/EditView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/IndexView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/Model.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Home/Script.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY3JpcHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tushar Projects/Scaffolding/Scaffolding/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qw7g66p2pq

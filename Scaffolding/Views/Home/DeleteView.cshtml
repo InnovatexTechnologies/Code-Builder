@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Scaffolding.Models.FeplProject>
+
+@{
+    ViewData["Title"] = "DeleteView";
+}
+
+<h1>DeleteView</h1>
+
+<script>
+    function CopyToClipboard(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select().createTextRange();
+            document.execCommand("copy");
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            alert("Text has been copied")
+        }
+    }
+
+</script>
+
+<h2>Auto genrated code for Index View : @ViewBag.projectName/@ViewBag.modelName</h2>
+<button id="button1" onclick="CopyToClipboard('myCode')">Click to copy</button>
+<pre id="myCode">@ViewBag.MyView</pre>

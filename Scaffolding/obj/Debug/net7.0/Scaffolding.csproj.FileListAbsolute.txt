@@ -1,0 +1,206 @@
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\AppSettingFile.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\appsettings.Development.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\appsettings.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.staticwebassets.runtime.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.exe
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.deps.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.runtimeconfig.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Scaffolding.pdb
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\ClosedXML.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Dapper.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Dapper.Contrib.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\Irony.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\itextsharp.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\System.Data.SQLite.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\XLParser.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.AssemblyReference.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfoInputs.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfo.cs
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CoreCompileInputs.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.MvcApplicationPartsAssemblyInfo.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cs
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets.build.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets.development.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.Scaffolding.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.build.Scaffolding.props
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Scaffolding.props
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Scaffolding.props
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\scopedcss\bundle\Scaffolding.styles.css
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\scopedcss\projectbundle\Scaffolding.bundle.scp.css
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CopyComplete
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\refint\Scaffolding.dll
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.pdb
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\Scaffolding.genruntimeconfig.cache
+D:\Tushar Projects\Scaffolding - Copy\Scaffolding\obj\Debug\net7.0\ref\Scaffolding.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\AppSettingFile.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.Development.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.staticwebassets.runtime.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.exe
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.deps.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.runtimeconfig.json
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.pdb
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\ClosedXML.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.Contrib.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\Irony.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\itextsharp.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\System.Data.SQLite.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\XLParser.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.AssemblyReference.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfoInputs.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfo.cs
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CoreCompileInputs.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.MvcApplicationPartsAssemblyInfo.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cs
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.build.json
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.development.json
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.Scaffolding.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.build.Scaffolding.props
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Scaffolding.props
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Scaffolding.props
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\bundle\Scaffolding.styles.css
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\projectbundle\Scaffolding.bundle.scp.css
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CopyComplete
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\refint\Scaffolding.dll
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.pdb
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.genruntimeconfig.cache
+D:\Tushar Projects\Scaffolding\Scaffolding\obj\Debug\net7.0\ref\Scaffolding.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\AppSettingFile.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.Development.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.staticwebassets.runtime.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.exe
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.deps.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.runtimeconfig.json
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\ClosedXML.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.Contrib.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Irony.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\itextsharp.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\System.Data.SQLite.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\XLParser.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.AssemblyReference.cache
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfoInputs.cache
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfo.cs
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CoreCompileInputs.cache
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.MvcApplicationPartsAssemblyInfo.cache
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cache
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cs
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.build.json
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.development.json
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.Scaffolding.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.build.Scaffolding.props
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Scaffolding.props
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Scaffolding.props
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\bundle\Scaffolding.styles.css
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\projectbundle\Scaffolding.bundle.scp.css
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CopyComplete
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.dll
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\refint\Scaffolding.dll
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.pdb
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.genruntimeconfig.cache
+D:\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.pdb
+D:\Scaffolding\Scaffolding\obj\Debug\net7.0\ref\Scaffolding.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\AppSettingFile.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.Development.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\appsettings.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.staticwebassets.runtime.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.exe
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.deps.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.runtimeconfig.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Scaffolding.pdb
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\ClosedXML.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Dapper.Contrib.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Irony.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\itextsharp.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\System.Data.SQLite.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\XLParser.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.AssemblyReference.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.GeneratedMSBuildEditorConfig.editorconfig
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfoInputs.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.AssemblyInfo.cs
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CoreCompileInputs.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.MvcApplicationPartsAssemblyInfo.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.RazorAssemblyInfo.cs
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.build.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.development.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.Scaffolding.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.build.Scaffolding.props
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Scaffolding.props
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Scaffolding.props
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\staticwebassets.pack.json
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\bundle\Scaffolding.styles.css
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\scopedcss\projectbundle\Scaffolding.bundle.scp.css
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.csproj.CopyComplete
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\refint\Scaffolding.dll
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.pdb
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\Scaffolding.genruntimeconfig.cache
+D:\TeamA\Akshi\Scaffolding\Scaffolding\obj\Debug\net7.0\ref\Scaffolding.dll
